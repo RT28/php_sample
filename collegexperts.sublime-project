@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":{
+		"xdebug": {
+			"url": "http://localhost/yii2/advanced/backend/web/index.php?r=city%2Fcreate"
+		}
+	}
+}

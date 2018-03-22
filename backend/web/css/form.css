@@ -1,0 +1,29 @@
+.form-control
+{
+    box-shadow: none !important;    
+    font-size: 0.9em;
+}
+
+.select2-container--krajee .select2-selection--single
+{
+    box-shadow: none !important;
+    font-size: 0.9em;   
+}
+
+.field-university-accomodation_available label
+{
+    margin-bottom: 0px;
+}
+
+.field-university-standard_test_list input
+{
+    height: 65px;
+}
+
+.breadcrumb
+{
+    background-color: #FFF;
+    border-radius: 0px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 0px;
+}

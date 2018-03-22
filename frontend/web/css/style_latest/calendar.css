@@ -1,0 +1,159 @@
+#calendar
+{    
+    margin-bottom: 20px;
+}
+
+#calendar:hover,
+#calendar:focus
+{
+    cursor: pointer;
+}
+
+#calendar .fc-toolbar h2
+{
+    font-size: 20px;
+}
+
+#calendar-detailed
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    #calendar-modal .modal-dialog
+    {
+        min-height: 500px;
+        min-width: 700px;
+    }
+}
+
+@media (min-width: 936px) {
+    #calendar-modal .modal-dialog
+    {
+        min-height: 700px;
+        min-width: 900px;        
+    }
+}
+
+.fc-day-grid-event
+{
+    padding: 5px !important;
+}
+
+.event-unavailable
+{
+    background-color: #DEDEDE !important;
+    color: #696969 !important;
+    border-color: #CECECE !important;
+}
+
+.event-reminder
+{
+    background-color: #0077ad !important;
+    color: #FFFFFF !important;
+    border-color: #086d9a !important;
+}
+
+.event-appointment
+{
+    background-color: #820a0a !important;
+    color: #FFFFFF !important;
+    border-color: #900303 !Important;    
+}
+
+.event-other
+{
+    background-color: #4CAF50 !important;
+    color: #ffffff !important;
+    border-color: #3fb543 !important;
+}
+
+.fc-basic-view .fc-body .fc-row
+{
+    min-height: 1em !important;
+}
+
+.fc td, .fc th
+{
+    background-color: #353535;    
+}
+
+#calendar.fc td,
+#calendar.fc th
+{
+    border-style: none !important;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number
+{
+    color: #191919;
+    font-weight: 500;
+}
+
+#calendar .fc-day-number, .fc-day-header span {
+    font-size: 14px;
+    color: #191919;
+}
+button.fc-prev-button.fc-button, button.fc-next-button.fc-button {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+#calendar .fc-today
+{
+    background: transparent !important;
+}
+
+#calendar .fc-today span
+{
+    background-color: #00a4b6 !important;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+#calendar-detailed .fc-today
+{
+    background-color: #07f29b !important;
+}
+
+#calendar .fc-toolbar
+{
+    background-color: #00a4b6;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0px !important;
+    padding-top: 10px;
+}
+
+#calendar .fc-scroller
+{
+    overflow-y: hidden !important;
+    height: 115px !important;
+}
+
+#calendar .fc-view-container
+{
+    padding: 5px;
+    background: #353535;
+}
+
+#calendar .fc-button
+{
+    background: transparent;
+    outline: none !important;
+    border: none !important;
+    color: #FFF;
+    border-radius: 0px;
+    box-shadow: none;
+    padding-top: 5px;
+}
+
+#calendar .fc-center
+{
+    white-space: normal;
+    display: inline-block;
+    width: 100px;
+}

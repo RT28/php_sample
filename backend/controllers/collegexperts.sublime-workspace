@@ -1,0 +1,530 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coun",
+				"country_id"
+			],
+			[
+				"class",
+				"classname"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"ROLE_",
+				"ROLE_ADMIN"
+			],
+			[
+				"TR",
+				"true"
+			],
+			[
+				"create",
+				"created_by"
+			],
+			[
+				"STAT",
+				"STATUS_DELETED"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"por",
+				"props"
+			],
+			[
+				"hand",
+				"handleSubmit"
+			],
+			[
+				"han",
+				"handleTextChange"
+			],
+			[
+				"handle",
+				"handleAuthorChange"
+			],
+			[
+				"sa",
+				"status"
+			],
+			[
+				"Comm",
+				"Comment"
+			],
+			[
+				"p",
+				"props"
+			],
+			[
+				"Comme",
+				"CommentForm"
+			],
+			[
+				"Commen",
+				"CommentList"
+			],
+			[
+				"comm",
+				"CommentForm"
+			],
+			[
+				"comment",
+				"CommentList"
+			],
+			[
+				"R",
+				"React"
+			],
+			[
+				"RE",
+				"return"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/xampp/htdocs/yii2/advanced/backend/views/city/create.php",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CityController.php",
+			"settings":
+			{
+				"buffer_size": 3903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/yii2/advanced/common/models/State.php",
+			"settings":
+			{
+				"buffer_size": 1529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/yii2/advanced/common/models/Country.php",
+			"settings":
+			{
+				"buffer_size": 1254,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 213.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/yii2/advanced",
+		"/D/xampp/htdocs/yii2/advanced/backend",
+		"/D/xampp/htdocs/yii2/advanced/backend/controllers",
+		"/D/xampp/htdocs/yii2/advanced/backend/views",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/city",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/state",
+		"/D/xampp/htdocs/yii2/advanced/common",
+		"/D/xampp/htdocs/yii2/advanced/common/models",
+		"/D/xampp/htdocs/yii2/advanced/console",
+		"/D/xampp/htdocs/yii2/advanced/console/controllers"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/yii2/advanced/backend/views/layouts/main.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/state/create.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/controllers/StateController.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/state/update.php",
+		"/D/xampp/htdocs/yii2/advanced/composer.json",
+		"/D/xampp/htdocs/yii2/advanced/common/models/Country.php",
+		"/D/xampp/htdocs/yii2/advanced/common/models/State.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/UniversityController.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/controllers/SiteController.php",
+		"/D/xampp/htdocs/yii2/advanced/common/components/AccessRule.php",
+		"/D/xampp/htdocs/yii2/advanced/common/components/Roles.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/site/addUniversity.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/site/listUniversities.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/University.php",
+		"/D/xampp/htdocs/yii2/advanced/common/AccessRule.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/config/main.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/controllers/UniversityListController.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/Employee.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/site/employeeForm.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/EmployeeForm.php",
+		"/D/xampp/htdocs/yii2/advanced/frontend/config/main.php",
+		"/D/xampp/htdocs/yii2/advanced/frontend/views/site/index.php",
+		"/D/xampp/htdocs/yii2/advanced/frontend/models/UserLogin.php",
+		"/D/xampp/htdocs/yii2/advanced/frontend/controllers/SiteController.php",
+		"/D/xampp/htdocs/yii2/advanced/frontend/models/UserLoginForm.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/models/PartnerLoginForm.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/controllers/SiteController.php",
+		"/D/xampp/htdocs/yii2/advanced/common/config/bootstrap.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/models/PartnerLogin.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/models/PartnerForm.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/models/Partner.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/runtime/debug/57bd33eb1da8f.data",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/site/login.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/EmployeeLoginForm.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/models/EmployeeLogin.php",
+		"/D/xampp/htdocs/yii2/advanced/backend/views/site/index.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/config/main.php",
+		"/D/xampp/htdocs/yii2/advanced/common/config/main.php",
+		"/D/xampp/htdocs/yii2/advanced/partner/assets/AppAsset.php",
+		"/D/xampp/htdocs/yii2/advanced/common/config/main-local.php",
+		"/D/xampp/htdocs/yii/advanced/backend/views/site/login.php",
+		"/D/xampp/htdocs/yii/advanced/backend/controllers/SiteController.php",
+		"/D/xampp/htdocs/yii/advanced/common/models/User.php",
+		"/D/xampp/htdocs/yii/advanced/backend/config/main.php",
+		"/D/xampp/htdocs/yii/advanced/backend/models/EmployeeLogin.php",
+		"/D/xampp/htdocs/yii/advanced/common/config/main-local.php",
+		"/D/xampp/htdocs/yii/basic/config/web.php",
+		"/C/Users/Parth/Desktop/styles.css",
+		"/C/Users/Parth/Desktop/index.html",
+		"/D/xampp/htdocs/react/react-tutorial-master/public/src/component1.js",
+		"/D/xampp/htdocs/react/react-tutorial-master/comments.json",
+		"/D/xampp/htdocs/react/react-15.0.2/src/component2.js",
+		"/D/xampp/htdocs/react/react-15.0.2/src/example.js",
+		"/D/xampp/htdocs/react/react-15.0.2/libs/react-dom.js",
+		"/D/xampp/htdocs/react/react-15.0.2/libs/browser.min.js",
+		"/D/xampp/htdocs/react/react-15.0.2/libs/jquery.min.js",
+		"/D/xampp/htdocs/react/react-15.0.2/libs/marked.min.js",
+		"/D/xampp/htdocs/react/react-15.0.2/libs/react.js",
+		"/D/xampp/htdocs/react/react-15.0.2/src/helloworld.js",
+		"/D/Riddhi/React/react-15.0.2/src/helloworld.js",
+		"/D/Riddhi/React/react-15.0.2/helloworld.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"D:\\xampp\\htdocs\\yii2\\advanced",
+			"D:\\xampp\\htdocs\\yii2\\advanced\\partner",
+			"D:\\xampp\\htdocs\\yii\\advanced"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"country",
+			"Country",
+			"country",
+			"Country",
+			"kartik",
+			"status",
+			"backend",
+			"user",
+			"User",
+			"generateAuthKey",
+			"user",
+			"create table \"user\"",
+			"create table \"user:",
+			"create table",
+			"migrations",
+			",\n    {\n        \"id\": 1420070400000,\n        \"author\": \"Paul O’Shannessy\",\n        \"text\": \"React is *great*!\"\n    }"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"partner"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/xampp/htdocs/yii2/advanced/backend/views/city/create.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1300,
+								1300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CityController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3330,
+								3330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/xampp/htdocs/yii2/advanced/common/models/State.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1368,
+								1387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/xampp/htdocs/yii2/advanced/common/models/Country.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 680.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "collegexperts.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 383.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

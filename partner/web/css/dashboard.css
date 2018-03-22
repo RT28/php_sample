@@ -1,0 +1,476 @@
+body {
+    padding-top: 64px;
+    background-color: #fff;
+    /*font-family: 'futurateeligregular';*/
+    font-family: 'Lato', sans-serif;
+}
+img {
+   max-width: 100%;
+}
+.mtop-0{margin-top:0px}
+.mtop-5{margin-top:5px}
+.mtop-10{margin-top:10px}
+.mtop-15{margin-top:15px}
+.mtop-20{margin-top:20px}
+.mtop-25{margin-top:25px;}
+.mtop-30{margin-top:30px;}
+.mbot-5{margin-bottom:5px}
+.mbot-10{margin-bottom:10px}
+.mbot-15{margin-bottom:15px}
+.mbot-20{margin-bottom:20px}
+.mleft-10{margin-left:10px}
+.mleft-15{margin-left:15px}
+.mleft-20{margin-left:20px}
+.mright-10{margin-right:10px}
+.mright-15{margin-right:15px}
+.mright-20{margin-right:20px}
+.btn {
+    display: inline-block;
+    padding: 6px 12px !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.main-logo img {
+    padding: 10px 20px 20px 20px;
+}
+.gtu-logo {
+    display: inline-block;
+    width: 150px;
+}
+.dash-body.menu-active .sidebar{
+  left: 0;
+}
+.dash-body.menu-active .main{
+  margin-left: 16.66666667%;
+  transition: all .3s;
+}
+.dash-body .main{
+  margin-left: 0;
+  transition: all .3s;
+}
+.dash-body.menu-active .slide-nav-btn{
+  left: 240px;
+  transition: all .3s;
+}
+.dash-body.menu-active .sidebar {
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 80px 15px 0;
+    width: 260px;
+    z-index: 9;
+}
+.dash-body .slide-nav-btn{
+  left: 15px;
+  transition: all .3s;
+}
+.dash-body.menu-active .university-logo {
+    margin-left: 262px;
+    transition: all .3s;
+}
+.dash-body.menu-active .university-logo {
+    margin-left: 20px;
+    transition: all .3s;
+    display: inline-block;
+    position: relative;
+}
+.dash-body.menu-active .university-logo:before {
+    content: '';
+    width: 1px;
+    height: 35px;
+    position: absolute;
+    left: -9px;
+    top: 14px;
+    display: inline-block;
+    background-color: #00a4b6;
+}
+.navbar-default {
+    background-color: #fff;
+    min-height: 65px;box-shadow: 1.5px 2.598px 8px 0px rgba(0, 1, 1, 0.133);
+}
+.user-info .university-name {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    float: left;
+    margin: 12px 0;
+}
+.user-img {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 7px 0;
+    float: left;
+    margin-left: 20px;
+}
+.university-logo {
+    padding: 7px;
+    margin-left: 262px;
+}
+.university-logo img {
+    height: 50px;
+    padding: 2px;
+}
+.nav.nav-sidebar>li>a {
+    color: #666;
+    padding: 14px 20px;
+    font-size: 16px;
+    transition: all .3s;
+}
+.nav.nav-sidebar>li>a i {
+    font-size: 20px;
+    margin-right: 4px;
+}
+.nav.nav-sidebar>li>a:hover, .nav.nav-sidebar>li>a:focus, .nav.nav-sidebar>li.active>a {
+    background-color: #ccedf1;
+    border-right: 3px solid #01a4b7;
+    color: #0296a7;
+    font-weight: 600;
+}
+.slide-nav-btn {
+    position: absolute;
+    top: 50%;
+    left: 240px;
+    margin-top: -18px;
+    font-size: 30px;
+    padding: 0px 10px;
+    line-height: 1;
+}
+.side-box {
+    min-height: 150px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+.side-box.red {
+    background-color: #f54337;
+}
+.side-box.blue {
+    background-color: #3f51b5;
+    position: fixed;
+    width: 230px;
+    bottom: 0;
+    right: 15px;
+}
+.side-box.green {
+    background-color: #4cb050;
+}
+.side-box .side-box-title {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+}
+.side-box.red .side-box-title {
+    border-bottom: 1px solid #ff7d75;
+}
+.side-box.blue .side-box-title {
+    border-bottom: 1px solid #5f6dbb;
+    text-align: left;
+    padding: 12px 10px;
+}
+.side-box.green .side-box-title {
+    border-bottom: 1px solid #6cb970;
+}
+.side-box .box-content {
+    padding: 13px 15px;
+}
+.side-box .box-content p:last-child {
+    margin-bottom: 0;
+}
+.side-box .box-content p i {
+    width: 20px;
+    text-align: center;
+    margin-right: 3px;
+}
+.side-box.red .side-box-title {
+    border-bottom: 1px solid #ff7d75;
+}
+.blue .chat-unit {
+    border-bottom: 1px solid #5f6dbb;
+    padding: 10px 10px 5px;
+    position: relative;
+    height: 60px;
+}
+.blue .chat-unit .chat-img {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+.blue .chat-unit .chat-name {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+.blue .chat-unit .chat-status {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ccc;
+    top: 50%;
+    margin-top: -5px;
+    right: 20px;
+}
+.blue .chat-unit .chat-status.active {
+    background-color: #4cb050;
+}
+.side-box ol.why-ad {
+    padding-left: 30px;
+    padding-right: 1px;
+    margin-top: 10px;
+}
+.side-box ol.why-ad li {
+    margin-bottom: 4px;
+}
+.side-box a.ad-btn {
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    background-color: #3f51b5;
+}
+
+section.wrapper-dashboard {
+    min-height: 100%;
+    padding-left: 260px;
+}
+section.wrapper-dashboard .wrapper-inner {
+    padding: 20px 15px;
+}
+.wrapper-inner .nav-tabs>li>a {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+.wrapper-inner .nav-tabs>li.active>a, .wrapper-inner .nav-tabs>li.active>a:focus, .wrapper-inner .nav-tabs>li.active>a:hover {
+    background-color: #b2e4e9;
+    border-radius: 0;
+    border-color: transparent;
+    border-bottom: 2px solid #00a4b6;
+}
+.wrapper-inner .tab-content {
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 12px 10px;
+}
+.wrapper-inner .university-form .tab-content {
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+.wrapper-inner .nav-tabs {
+    border-bottom: 1px solid #ccc;
+}
+.wrapper-inner .nav-tabs>li>a {
+    border-radius: 0;
+}
+.wrapper-inner .nav>li>a:focus, .wrapper-inner .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #b2e4e9;
+    border-bottom: 2px solid #00a4b6;
+}
+.wrapper-inner .nav .open>a, .wrapper-inner .nav .open>a:focus, .wrapper-inner .nav .open>a:hover {
+    border-color: transparent;
+    border-bottom-color: #00a4b6;
+}
+.wrapper-inner .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #00a4b6;
+    text-transform: uppercase;
+}
+.wrapper-inner .panel-default>.panel-heading .panel-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.chat-button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+.chat-button:after {
+    content: '';
+    background-color: #02b709;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    top: 3px;
+    right: 6px;
+    border-radius: 50%;
+}
+.btn.btn-blue:hover {
+    color: #fff;
+    background-color: #027d8c !important;
+}
+.university-admission-index h1 {
+    display: inline-block;
+    margin-top: 0;
+}
+.university-admission-index .pull-rignt {
+    float: right;
+}
+.basic-details {
+    font-size: 15px;
+    border-bottom: 2px solid #01a4b7;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.basic-details:last-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.university-update {
+    position: relative;
+}
+.university-update .buttons-block {
+    position: absolute;
+    right: 0;
+    z-index: 8;
+}
+.chat-block {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+}
+.chat-parent {
+    position: fixed;
+    bottom: -6px;
+    right: 245px;
+    z-index: 9;
+}
+.chat-tab {
+    border-radius: 50%;
+    height: 69px;
+    width: 69px;
+    position: relative;
+    box-shadow: 1px 2px 3px 2px #8c8c8c;
+}
+.university-admission-index span.glyphicon {
+    margin: 0 4px;
+}
+a.btn.btn-link.btn-chat-close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 !important;
+}
+.chat-group {
+    max-height: 245px;
+    overflow: auto;
+}
+.video-block iframe {
+    height: 300px !important;
+}
+#brochures .thumbnail {
+    position: relative;
+}
+.delete-doc {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+a.delete-doc {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    text-align: center;
+    width: 24px;
+    padding: 3px;
+    height: 24px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #f54337;
+}
+#brochures .thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    text-align: center;
+    background-color: #00a4b6;
+    text-transform: uppercase;
+}
+#brochures .thumbnail .caption p {
+    margin: 0;
+    color: #fff;
+}
+#brochures .thumbnail .caption a {
+    color: #fff;
+}
+#brochures .thumbnail img {
+    margin: 10px auto;
+    width: 70px;
+}
+.field-universitytemp-is_partner label {
+    margin-top: 35px;
+}
+.university-form #map-search {
+   margin-bottom: 10px;
+}
+.btn.btn-blue {
+    background-color: #01a4b7;
+}
+#close-chat {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.dash-body .university-admission-view {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.field-universityenquiry-agree {
+    display: inline-block;
+}
+ol.partner-enq-list {
+    padding-left: 15px;
+    font-weight: 600;
+}
+ol.partner-enq-list li {
+    margin-bottom: 10px;
+}
+.partner-reg {
+    line-height: 1.7;
+    font-size: 16px;
+}
+/*css added by sachin ramane*/

@@ -1,0 +1,337 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+.c-navbar
+{
+    background-color: #F5F5F5;
+    border: none;
+    margin-top: 65px;
+    position: fixed;
+    top: 0;
+    bottom: -20px;
+    width: 150px;
+    z-index: 1;
+    overflow-y: auto;
+    box-shadow: 1px 0 5px #bfbfbf;
+    border-radius: 0px;
+}
+.content-container
+{
+    margin-top: 50px;
+    margin-left: 170px;
+    background-color: #FEFEFE;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+	.nav li > form {
+	    padding: 3px;
+	}
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.student-univeristy-application-index {
+    overflow-x: auto;
+}
+
+
+
+.chat-unit
+{
+    padding: 10px 10px 5px;
+    margin-bottom: 0px !important;
+}
+
+.chat-unit:hover,
+.chat-unit:focus
+{
+    cursor: pointer;
+    background-color: #DEDEDE;
+}
+
+.panel-chat .panel-body
+{   
+    padding: 0px;
+}
+
+.chat-unit span.offline
+{
+    background-color: #BFBFBF;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.custom-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+#subscribe
+{
+    height: 600px;
+}
+
+.OT_subscriber, .OT_publisher
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+#publish
+{
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    border: 1px solid;
+}
+.dashboard-block {
+    margin-top: 20px;
+}
+.dashboard-checklist-item
+{
+    padding-right: 10px;
+}
+.dashboard-checklist-item-done
+{
+    color: #00a4b6;
+}
+.dashboard-checklist a
+{
+    color: inherit;
+    text-decoration: none;
+}
+.dashboard-checklist .list-group-item.disabled a
+{
+    cursor: not-allowed;
+}
+.dashboard-nav .nav-tabs
+{
+    width: 100%;
+}
+.dashboard-left-menu li,
+.dashboard-left-menu li a
+{
+    display: inline-block;
+}
+ul.dashboard-left-menu
+{
+    border-right-width: 0px !important;
+}
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+	.nav li > form {
+	    padding: 3px;
+	}
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+.dashboard-nav .nav-tabs
+{
+    width: 100%;
+}
+.table-cell-highlight
+{
+    background-color: #00a4b6;
+    color: #FFF;
+}
+.table-cell-highlight-light
+{
+    background-color: #e9f1f7;
+    color: #49575f;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td
+{
+    border: 1px solid #FFF;
+}
+
+.basic-details {
+	font-size: 15px;
+	border-bottom: 5px solid #01a4b7;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.basic-details strong {
+    margin-right: 10px;
+    min-width: 100px;
+    display: inline-block;
+}
+.address {
+    font-size: 15px;
+}
+.address strong {
+    margin-right: 10px;
+    min-width: 60px;
+    display: inline-block;
+}
+.res-address p, .per-address p {
+	margin-bottom: 0;
+}
+.university-form {
+    font-size: 15px;
+}
+
+.btn-link {
+        color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+header .header-fixed li.button-login {
+    line-height: 17px !important;
+}
+
+.notifications a{ 
+font-family: 'futurateeligregular' !important;
+    color: #fff;
+    font-family: bold;
+}
+.edu-table-responsive {
+    border-collapse: collapse;
+    width: 100%;
+}
+.edu-table-responsive tr.heading-table {
+    background-color: #00a4b6 !important;
+}
+.table-header .edu-table-responsive .col-1 {
+    text-align: center !important;
+}
+.edu-table-responsive th {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+} 
+.edu-table-responsive .col-1 {
+    width: 360px;
+    min-width: 360px;
+text-align: center !important;
+}
+
+ 
+
+.basic-details label{
+	    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

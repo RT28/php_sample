@@ -1,0 +1,44 @@
+<!doctype html>
+ <html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script>
+        var from_id = Math.ceil(Math.random() * 10);
+        var to_id = Math.ceil(Math.random() * 10);
+        var socket = io('http://localhost:3000', {from_id: from_id, to_id: to_id});        
+        function submitMessage(){
+            var message = {                
+                message: document.getElementById('message').value,
+                from_id: from_id,
+                to_id: to_id
+            }
+            socket.emit('chat message', JSON.stringify(message));
+            document.getElementById('message').value = '';
+            return false;
+        }
+        socket.on('chat message', function(msg){
+            msg = JSON.parse(msg);
+            $('#messages').append($('<li>').text(msg.message));
+        });      
+    </script>
+  </head>
+  <body>
+    <ul id="messages"></ul>
+    <form action="">        
+      <input id="message" autocomplete="off" /><button type="button" onclick="submitMessage()">Send</button>
+      <div id="messages"></div>
+    </form>
+  </body>
+</html>

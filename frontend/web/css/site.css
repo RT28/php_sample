@@ -1,0 +1,653 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+	.nav li > form {
+	    padding: 3px;
+	}
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.cover-photo
+{
+	max-width: 100%;
+}
+
+.photo-thumbnail
+{
+	height: 100px;
+	max-width: 100%;
+}
+
+.file-zoom-content .photo-thumbnail
+{
+	height: 100%;
+}
+
+.border
+{
+    border: 1px solid #CECECE;
+}
+
+.student-view .glyphicon
+{
+    font-size: 1.5em;
+}
+
+.notifications-window
+{
+    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+.course-box
+{
+    border: 1px solid #CECECE;
+}
+
+#login-form label
+{
+    width: 25%;
+    text-align: right;
+}
+
+#login-form .form-control
+{
+    display: inline;
+    width: 60%;
+}
+
+#login-form .help-block
+{
+    margin-left: 25%;
+    padding-left: 5px;
+}
+
+#login-form .checkbox label
+{
+    color: #FFF;
+}
+
+#majors,
+#states
+{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#course-list .panel-default > .panel-heading
+{
+    background-color: #FFF;
+    border-radius: 0;
+}
+
+#course-list .panel-heading
+{
+    padding: 10px 5px;
+}
+
+#course-list .panel-body
+{
+    border-top: none;
+    background-color: #fff;
+    line-height: 25px;
+}
+
+#course-list .panel-group .panel
+{
+    border-radius: 0px;
+    border-width: 0px 0px 1px;
+    margin-bottom: 5px;
+}
+
+.collapsed .course-list-university-logo {
+    width: 90px;
+    margin: 0 auto;
+    display: block;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.small-text
+{
+    font-size: 13px;
+    color: #777777;
+}
+
+.large-text
+{
+    font-size: 16px;
+    color: #01a4b7;
+}
+
+.dark
+{
+    color: #333;
+    font-weight: 600;
+}
+
+.course-list-header
+{
+    padding: 10px 0px;
+    border: 1px solid #CECECE;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background-color: #d8d8d8;
+    margin-right: 0px;
+}
+
+.course-list-header .program
+{
+    padding-left: 5px;
+}
+
+.course-list-header .duration
+{
+    padding-left: 10px;
+}
+
+#course-list .panel-title
+{
+    position: relative;
+}
+
+#course-list .action-buttons {
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    text-align: center;
+    padding-right: 10px;
+}
+.interim-page #course-list .action-buttons {
+    right: 0;
+}
+#course-list .action-buttons.bor-0 {
+    border: 0 !important;
+}
+.program-name {
+    display: block;
+    color: #4a4a4a;
+    font-weight: 600;
+	text-align: left;
+}
+.location-name
+{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+p.cource-type {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.action-buttons a
+{
+    display: block;
+}
+.about-us .group-title-index, .site-signup .group-title-index {
+    margin-bottom: 30px;
+}
+
+.margin-correction
+{
+    margin-left: 4.17%;
+}
+
+.fixed-filter
+{
+    position: fixed;
+    top: 60px;
+    margin-top: 0px !important;
+}
+
+.ads-fixed
+{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    margin-top: 0px !important;
+}
+
+.course-header-fixed
+{
+    position: fixed;
+    top: 60px;
+    max-width: 1000px;
+    width: 100%;
+    left: 16.67%;
+    z-index: 1;
+}
+
+.course-body-fix
+{
+    margin-top: 125px;
+}
+
+a.btn.btn-blue {
+    color: #2ac1f0;
+    border: 2px solid #2ac1f0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.feature-university-logo
+{
+    max-height: 150px;
+    padding: 20px;
+}
+
+.featured-university-name
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services-icon
+{
+    width: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-block
+{
+    height: 200px;
+    border: 1px solid #CECECE;
+
+    background-color: #FBFBFB;
+
+    overflow: hidden;
+}
+
+.gallery-block img
+{
+    height: 100%;
+}
+.program-section .list-group-item
+{
+    border-width: 0px;
+}
+
+.auto-complete-container
+{
+    position: relative;
+}
+
+.typeahead
+{
+    top: 50px !important;
+    margin: 0px 23%;
+    border-color: rgb(1, 164, 183);
+    border-width: 0px 2px 2px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.typeahead li a
+{
+    padding: 10px 20px;
+    line-height: 1;
+    color: #fff;
+    border-bottom: 1px solid #313131;
+}
+
+
+.typeahead > .active > a,
+.typeahead > .active > a:hover,
+.typeahead > .active > a:focus,
+.typeahead > li > a:hover,
+.typeahead > li > a:focus
+{
+    color: #fff;
+    border-bottom: 1px solid #313131;
+    background-color: #2ac1f0;
+}
+
+.student-icon
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #d8d8d8 !important;
+}
+.float-right
+{
+    float: right;
+}
+
+.time-slots
+{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+}
+
+.time-slots:hover
+{
+    font-weight: bold;
+    color: #01a4b7;
+}
+
+.time-slots.selected
+{
+    color: #FFF;
+    background-color: #01a4b7;
+}
+
+.time-slots-disabled
+{
+    color: #999;
+    cursor: not-allowed;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+}
+
+.btn-white
+{
+    color: #01a4b7 !important;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus
+{
+    font-weight: bold;
+}
+
+.package-offering-icon
+{
+    height: 250px;
+    width: 250px;
+}
+.dashboard-checklist-item
+{
+    padding-right: 10px;
+}
+.dashboard-checklist-item-done
+{
+    color: #00a4b6;
+}
+.dashboard-checklist a
+{
+    color: inherit;
+    text-decoration: none;
+}
+.dashboard-checklist .list-group-item.disabled a
+{
+    cursor: not-allowed;
+}
+.chat-unit
+{
+    padding: 10px 10px 5px;
+    margin-bottom: 0px !important;
+}
+.chat-unit:hover,
+.chat-unit:focus
+{
+    cursor: pointer;
+    background-color: #DEDEDE;
+}
+.panel-chat .panel-body
+{
+    padding: 0px;
+}
+.chat-unit span.offline
+{
+    background-color: #BFBFBF;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.profile-pic.stud-dash-pic .dash-pic-block {
+	
+}
+.profile-pic.stud-dash-pic a.student-noti {
+    position: absolute;
+    top: 0;
+    right: 67px;
+    background-color: #ef3939;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+.student-profile-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.btn_hidden{
+    display: none;
+}
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:11px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.table-cell-highlight
+{
+    background-color: #90a1ae;
+    color: #FFF;
+}
+.table-cell-highlight-light
+{
+    background-color: #e9f1f7;
+    color: #49575f;
+}
+.dashboard-nav .nav-tabs
+{
+    width: 100%;
+}
+ul.dashboard-left-menu
+{
+    border-right-width: 0px !important;
+}
+.profile-teacher .profile-teacher-wrapper .teacher-info .staff-item2 .staff-info .staff-avatar img
+{
+    max-width: 175px !important;
+}
+.custom-modal-close {
+    color: #4a4a4a;
+	opacity:1;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.custom-modal-close-1 {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+#subscribe {
+    height: 480px;
+    background-image: url(../images/call-processing.gif);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #edebed;
+}
+.OT_subscriber, .OT_publisher
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+#publish
+{
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    border: 1px solid;
+}
+.text_justify{
+    text-align: justify;
+}
+header .header-main .navigation .nav-links li a,
+header .header-main .navigation .nav-links li button.edu-tab {
+}
+header .header-main .navigation .nav-links li .active {
+}
+/*css added by sachin ramane*/
+
+.alert-minimalist {
+    background-color: rgb(241, 242, 240);
+    border-color: rgba(149, 149, 149, 0.3);
+    border-radius: 3px;
+    color: rgb(149, 149, 149);
+    padding: 10px;
+}
+.alert-minimalist > [data-notify="icon"] {
+    height: 50px;
+    margin-right: 12px;
+}
+.alert-minimalist > [data-notify="title"] {
+    color: rgb(51, 51, 51);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.alert-minimalist > [data-notify="message"] {
+    font-size: 80%;
+}
+body.full-view-active {
+    overflow: hidden;
+}

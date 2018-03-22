@@ -1,0 +1,10 @@
+.btn-full-width
+{
+    width: 100%;
+}
+
+.disabled-tab
+{
+    pointer-events: none;
+    opacity: 0.5;
+}

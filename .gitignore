@@ -1,0 +1,119 @@
+# yii console command
+/yii
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+/chat-sever/node_modules/
+/calendar/node_modules/
+/frontend/uploads/
+/frontend/downloads/
+/backend/uploads/
+/partner/uploads/
+debug.log
+backend/web/uploads/Data.csv
+*.png
+*.png
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css.map
+backend/config/main.php
+backend/config/main.php
+backend/config/main.php
+backend/views/layouts/admin-dashboard-sidebar - Copy.php
+bootstrap-3.3.7-dist.zip
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css.map
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js
+bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/npm.js
+common/models/FileUpload - Copy (2).php
+datepc.html
+dropdown/css/animate.css
+dropdown/css/animate.min.css
+dropdown/css/bootstrap-dropdownhover.min.css
+dropdown/css/bootstrap-theme.css
+dropdown/css/bootstrap-theme.css.map
+dropdown/css/bootstrap-theme.min.css.map
+dropdown/css/bootstrap.css
+dropdown/css/bootstrap-theme.min.css
+dropdown/css/bootstrap.min.css
+dropdown/js/bootstrap-dropdownhover.js
+dropdown/js/bootstrap-dropdownhover.min.js
+dropdown/js/bootstrap.js
+dropdown/js/bootstrap.min.js
+dropdown/LICENSE
+dropdown/js/npm.js
+dropdown/css/bootstrap.min.css.map
+dropdown/README.md
+vendor.zip
+partner/web/uploads/consultant/3/profile_photo/logo_170X115.jpg
+composer.json
+composer.lock
+partner/web/downloads/documents8.zip
+partner/web/uploads/consultant/3/profile_photo/logo_170X115.jpg
+partner/web/uploads/employee/5/profile_photo/logo_170X115.jpg
+partner/web/uploads/consultant/3/profile_photo/logo_170X115.jpg
+partner/web/uploads/consultant/3/profile_photo/logo_170X115.jpg
+partner/modules/consultant/views/students/index_17_08_2017.php
+partner/modules/consultant/views/students/_documents.php
+partner/modules/consultant/views/students/_documents.php
+partner/modules/consultant/views/students/_documents.php
+frontend/views/site/about - Copy.php
+partner/web/js/jquery-ias.min.js
+partner/web/js/main_server.js
+php.ini
+backend/web/uploads/Data.csv
+frontend/web/images/Banner_gotouniversity(agent).jpg
+frontend/views/university/index.php
+partner/web/uploads/consultant/3/profile_photo/consultant_image_228X228.jpg
+partner/config/params-local.php
+partner/config/main-local.php
+partner/web/uploads/consultant/3/profile_photo/consultant_image_228X228.jpg
+frontend/views/university/view.php
+frontend/views/university/view.php
+frontend/views/university/view.php
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.docx
+*.1-01
+backend/web/photo_gallery/Data.csv
+common/models/FileUpload.php

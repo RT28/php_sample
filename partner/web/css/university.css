@@ -1,0 +1,27 @@
+#google-map-container
+{
+	min-height: 300px;
+}
+
+.cover-photo
+{
+	max-width: 100%;
+}
+
+.photo-thumbnail
+{
+	height: 100px;
+	max-width: 100%;
+}
+
+.file-zoom-content .photo-thumbnail
+{
+	height: 100%;
+}
+
+@media (min-width: 768px){
+	.rankings-modal {
+		width: 665px;
+		margin: 30px auto;
+	}
+}
